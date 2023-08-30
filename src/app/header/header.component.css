@@ -1,0 +1,49 @@
+header {
+    background-color: #ebe0d6;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(10vh + 10px);
+    max-height: 10vh;
+    overflow: hidden;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    z-index: 2; /* Ajusta o índice de sobreposição */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alterado para exibir os itens na mesma linha */
+    align-items: center;
+    z-index: 1; /* Ajusta o índice de sobreposição */
+  }
+  
+  nav ul li {
+    margin-right: 20px; /* Adicionado espaçamento entre os itens */
+  }
+  
+  nav ul li:last-child /* Removido o espaçamento do último item */ {
+    margin-right: 0; 
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-size: 20pt;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #a8dadc;
+  }

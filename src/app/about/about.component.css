@@ -1,0 +1,47 @@
+.about {
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto; /* Centraliza a seção horizontalmente */
+    max-width: 70%; /* Define a largura máxima da seção */
+    background-color: #ffffff; /* Cor de fundo para distinguir a seção */
+  }
+  
+  .about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .about .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centraliza verticalmente */
+    margin-top: 15px; /* Adicionado espaçamento entre os botões */
+  }
+  
+  .about .button {
+    display: block;
+    width:30%; /* Define a largura total */
+    padding: 10px 0; /* Ajusta o espaçamento interno */
+    border: none;
+    background-color: #1d3557;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; /* Espaçamento entre os botões */
+  }
+  
+  .about .button:hover {
+    background-color: #457b9d;
+  }
+
+  .button:hover {
+    background-color: #457b9d;
+  }

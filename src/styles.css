@@ -1,0 +1,47 @@
+/* Estilo geral para a página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Estilos para o cabeçalho */
+
+
+/* Estilos para os componentes */
+section {
+  text-align: center;
+  padding: 2rem;
+  margin: 0 auto; /* Centraliza a seção horizontalmente */
+  max-width: 70%; /* Define a largura máxima da seção */
+  background-color: #ffffff; /* Cor de fundo para distinguir a seção */
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #1d3557;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logo-image {
+  width: 100px;
+  height: auto;
+}
